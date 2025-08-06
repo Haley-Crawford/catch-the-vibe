@@ -67,12 +67,10 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+Here's a walkthrough of implemented user stories: https://1drv.ms/v/c/1272c95792c3059f/ETX49WJh52FGrJ6vuBy33WoBKfTspTFoJ5EnBTWcdp8ZNA?e=ELF38h
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with Windows + Ctrl + S  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -84,7 +82,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2025 Haley Crawford
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
