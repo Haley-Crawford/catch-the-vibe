@@ -1,0 +1,250 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-areas: 
+    'nav head'
+    'nav main'
+    'nav foot';
+  grid-template-rows: 100px 1fr 30px;
+  grid-template-columns: 75px 1fr;
+}
+
+.header {
+  position: relative;
+  font-family: 'Neonderthaw', serif;
+  text-align: center;
+  padding: 0.5em;
+  grid-area: head;
+}
+
+#app-title {
+  font-size: 4.5em;
+  display: inline-block;
+  background-image: linear-gradient(to right, blue, purple, red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; /* For WebKit browsers */
+  color: transparent; /* Standard property */
+  text-shadow: 0 0 5px #fff;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 75px;
+  grid-area: nav;
+  border-right: 1px solid white;
+  transition: all 0.5s ease;
+  background: black;
+  z-index: 5;
+  font-size: 1.75em;
+}
+
+.navbar:hover {
+  width: 200px;
+}
+
+#nav-icon {
+  position: relative;
+  top: 0.5em;
+  left: 0.5em;
+  transition: all 0.5s ease;
+}
+
+.navbar:hover #nav-icon {
+  transform: rotate(90deg);
+}
+
+.nav-ul {
+  list-style: none;
+}
+
+.nav-li {
+  padding: 0.5em;
+}
+
+.nav-li:hover {
+  background: rgb(75, 75, 75);
+}
+
+.main {
+  grid-area: main;
+  padding: 0 1em;
+}
+
+.dashboard {
+  display: grid;
+  place-items: center;
+  gap: 2em;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  overflow: hidden;
+}
+
+.gallery-max {
+  max-height: 415px;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border: 5px double white;
+  align-items: center;
+  padding-bottom: 0.5em;
+}
+
+.event-modal {
+  display: flex;
+  gap: 2em;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.comment {
+  border: 1px solid white;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.guests, .comments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.event-btns {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.rsvp-btn {
+  width: 75px;
+}
+
+.reminder-btn {
+  background: rgba(64, 103, 241, 0.663);
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  font-size: 1.75em;
+  display: grid;
+  place-content: center;
+  gap: 1em;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper input {
+  font-size: 1em;
+}
+
+.form-label {
+  display: inline-block;
+  width: 175px;
+}
+
+.form-choices {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.form-choices button {
+  padding: 0.25em;
+}
+
+.cancel-btn {
+  background: red;
+  transition: background 0.25s;
+}
+
+.cancel-btn:hover {
+  background: rgb(165, 1, 1);
+  border-color: rgb(165, 1, 1);
+}
+
+.footer {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: end;
+  padding: 1em;
+  grid-area: foot;
+}
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
